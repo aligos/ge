@@ -9,11 +9,11 @@ module.exports = {
   siteMetadata: {
     title: `Ge`,
     author: `Ge Rahmat`,
-    description: `Personal blog by `,
+    description: `Thought to text`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/rahmataligos`,
+        url: `https://mobile.twitter.com/rahmataligos`,
       },
       {
         name: `github`,
