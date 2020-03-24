@@ -7,15 +7,11 @@ import useSiteMetadata from "../hooks/use-site-metadata"
  */
 
 export default props => {
-  const { author, description, social } = useSiteMetadata()
+  const { company, learn, location } = useSiteMetadata()
   return (
     <Fragment>
-      {`Personal blog by `}
-      <Styled.a href={social.find(s => s.name === "twitter")?.url}>
-        {author}
-      </Styled.a>
-      <br />
-      {description}
+      {`I live in ${location} and work at ${company}.`}
+      <br />I learn: {learn}
     </Fragment>
   )
 }
