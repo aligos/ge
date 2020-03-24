@@ -7,22 +7,26 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `Ge`,
     author: `Ge Rahmat`,
-    description: `Thought to text`,
+    company: `CoconutLab`,
+    description: `Personal blog by Rahmat Aligos`,
+    learn: `Classical Guitar, Ramda and Rust`,
+    location: `Tasikmalaya, West Java`,
     social: [
       {
-        name: `twitter`,
+        name: `Twitter`,
         url: `https://mobile.twitter.com/rahmataligos`,
       },
       {
-        name: `github`,
+        name: `Github`,
         url: `https://github.com/aligos`,
       },
       {
-        name: `stackoverflow`,
+        name: `Stackoverflow`,
         url: `https://stackoverflow.com/users/6366525/rahmat-aligos`,
       },
     ],
+    technologies: `React.js, React Native and Typescript.`,
+    title: `Ge`,
   },
 }
